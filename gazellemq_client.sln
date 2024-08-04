@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gazellemq_client", "gazellemq_client\gazellemq_client.csproj", "{E59F1DED-4583-43B4-A6F7-045B1716C060}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GazelleMQLib", "GazelleMQLib\GazelleMQLib.csproj", "{FA6BFCDB-4F39-44F7-BC40-CB007A3726C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePublisher", "ExamplePublisher\ExamplePublisher.csproj", "{298F72B9-2929-4571-B9C8-E3EF9F7D71EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleSubscriber", "ExampleSubscriber\ExampleSubscriber.csproj", "{6CBE8B6D-50D1-4556-A318-CD874A754D40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +12,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E59F1DED-4583-43B4-A6F7-045B1716C060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E59F1DED-4583-43B4-A6F7-045B1716C060}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E59F1DED-4583-43B4-A6F7-045B1716C060}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E59F1DED-4583-43B4-A6F7-045B1716C060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6BFCDB-4F39-44F7-BC40-CB007A3726C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6BFCDB-4F39-44F7-BC40-CB007A3726C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6BFCDB-4F39-44F7-BC40-CB007A3726C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6BFCDB-4F39-44F7-BC40-CB007A3726C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298F72B9-2929-4571-B9C8-E3EF9F7D71EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298F72B9-2929-4571-B9C8-E3EF9F7D71EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298F72B9-2929-4571-B9C8-E3EF9F7D71EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298F72B9-2929-4571-B9C8-E3EF9F7D71EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBE8B6D-50D1-4556-A318-CD874A754D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBE8B6D-50D1-4556-A318-CD874A754D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBE8B6D-50D1-4556-A318-CD874A754D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBE8B6D-50D1-4556-A318-CD874A754D40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
